@@ -45,8 +45,7 @@
 
 /* ########################### Author Info ######################### */
 /*		Name:	Arun Baby
-/*  		Orgn: IIT Madras
-/*    	Email: arunbaby0@gmail.com
+/*  	Orgn: IIT Madras
 /*		Date:	01-01-2016
 /*		Desc:	UTF-8 Handler for unifed parser
 /* ########################### Author Info END ##################### */

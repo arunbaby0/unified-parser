@@ -45,17 +45,16 @@
 
 /* ########################### Author Info ######################### */
 /*		Name:	Arun Baby
-/*  		Orgn: IIT Madras
-/*    	Email: arunbaby0@gmail.com
+/*  	Orgn: IIT Madras
 /*		Date:	01-01-2016
 /*		Desc:	unifed parser for indian languages
 /* ########################### Author Info END ##################### */
 
 /* ########################### Test Code ########################### */
-/* 		Dependencies : flex and bison
-/* 		Compile step : make
+/* 	Dependencies : flex and bison
+/* 	Compile step : make
 /*		Run Syntax monophone : ./unified-parser മലയാളം 0 0 0 0
-/* 		Run Syntax syllable  : ./unified-parser മലയാളം 0 1 0 0
+/* 	Run Syntax syllable  : ./unified-parser മലയാളം 0 1 0 0
 /*		Expected output: writes output to file wordpronunciation
 /* ########################### Test Code END ####################### */
 
