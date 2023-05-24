@@ -85,7 +85,7 @@
 #define COL 2
    char *symbolTable[ROW][COL];
    char *syllableList[100] = {}; // max syllable limit.
-   int DEBUG = 1, parseLevel = 0, pruiningFlag = 0, syllTagFlag = 0, fliteHTSFlag = 0, doubleParseSyl = 0;
+   int DEBUG = 0, parseLevel = 0, pruiningFlag = 0, syllTagFlag = 0, fliteHTSFlag = 0, doubleParseSyl = 0;
    directParseFlag = 0; // parselevel - 0-mono 1-syll  //syldictFlag=0,
    // wordpronunciation   wordpronunciationunified   commonunified
    char *rootPath = "./";
@@ -226,7 +226,7 @@
       if (strstr(output, "ണ്‍") != NULL)
          output = Utf8ReplaceAll("ണ്‍", "ൺ", output);
 
-      printf("cleared checks\n");
+      // printf("cleared checks\n");
       return output;
    }
 
@@ -843,7 +843,7 @@
          phone = Utf8ReplaceAll("$", "", phone);
 
       //&q&w&eu&
-      for (i = 0; i < 39; i++)
+      for (i = 0; i < 38; i++)
       {
          strcpy(c1, "&q&");
          strcat(c1, schwaList[i]);
@@ -1540,7 +1540,7 @@
       if (strstr(input, "&#&q&") != NULL)
          input = Utf8ReplaceAll("&#&q&", "&q&", input);
 
-      printf("aksh : %s\n", input);
+      // printf("aksh : %s\n", input);
       // exit(0);
 
       pch = strtok(input, "#");

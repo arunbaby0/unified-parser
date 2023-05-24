@@ -54,7 +54,8 @@ LEX= flex
 YACC= bison -d
 
 CC = gcc
-FLAGS= -g -lfl  -Wall -w -std=c99
+FLAGS= -g -lfl  -Wall -w 
+#-std=c99
 
 all: unified 
 
